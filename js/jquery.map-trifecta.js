@@ -32,7 +32,7 @@ var settings;
 				$that = $(that);
 
                 // Since WebKit doesn't know the height until after the image has loaded, perform everything in an onload copy
-                $('<img />').load(function () {
+                $('<img />').on('load',function () {
                     var w,
 					h,
 					attrW = 'width',
@@ -351,7 +351,7 @@ var settings;
 
             map = $('map[name="' + usemap.substr(1) + '"]');
 
-            if (!(img.is('img,input[type="image"]') && usemap && map.size() > 0)) {
+            if (!(img.is('img,input[type="image"]') && usemap && map.length > 0)) {
                 return;
             }
 
