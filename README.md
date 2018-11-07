@@ -1,7 +1,7 @@
-# jquery-map-trifecta
+# jquery-map-trifecta - Updated [Bootstrap 4 & Jquery 3.3.1]
 Combines RWD Image Maps, Maphilight, and Zoom into 1 solution. Optional table integration.
 
-Live Demo: http://jsfiddle.net/k6pukgLd/
+Live Demo: http://jsfiddle.net/u7qfpj96/
 
 ---
 
